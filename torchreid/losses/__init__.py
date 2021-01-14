@@ -2,6 +2,8 @@ from __future__ import division, print_function, absolute_import
 
 from .cross_entropy_loss import CrossEntropyLoss
 from .hard_mine_triplet_loss import TripletLoss
+from .binary_cross_entropy_loss import BinaryCrossEntropyLoss
+from .oim_loss import OIMLoss
 
 
 def DeepSupervision(criterion, xs, y):
